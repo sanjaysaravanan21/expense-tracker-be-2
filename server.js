@@ -23,7 +23,7 @@ const port = process.env.PORT || 4500;
 
 // MongoDB connection
 mongoose
-  .connect(process.env.BE_URL)
+  .connect(process.env.DB_URL)
   .then(() => {
     console.log("Connected to Mongo DB");
     app.use("/items", itemsRouter);

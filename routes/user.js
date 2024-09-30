@@ -44,11 +44,11 @@ router.put("/:id", async (req, res) => {
   const { fullName, phoneNumber, email } = req.body;
 
   try {
-    const updatedUser = await User.findByIdAndUpdate(
-      req.params.id,
-      { fullName, phoneNumber, email },
-      { new: true, runValidators: true }
-    );
+    const updatedUser = await User.findByIdAndUpdate(req.params.id, {
+      fullName,
+      phoneNumber,
+      email,
+    });
 
     if (!updatedUser) {
       return res.status(404).json({ message: "User not found" });
