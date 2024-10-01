@@ -1,0 +1,902 @@
+[
+  {
+    "category": "internet",
+    "amount": 96,
+    "type": "expense",
+    "date": "2024-08-01",
+    "time": "12:43",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "internet",
+    "amount": 993,
+    "type": "expense",
+    "date": "2024-08-01",
+    "time": "01:42",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "clothing",
+    "amount": 991,
+    "type": "income",
+    "date": "2024-08-01",
+    "time": "01:34",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "others",
+    "amount": 326,
+    "type": "income",
+    "date": "2024-08-01",
+    "time": "01:31",
+    "paidTo": "Vendor 24",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "transport",
+    "amount": 35,
+    "type": "income",
+    "date": "2024-08-01",
+    "time": "05:15",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "decor",
+    "amount": 703,
+    "type": "expense",
+    "date": "2024-08-01",
+    "time": "22:49",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "EB",
+    "amount": 757,
+    "type": "expense",
+    "date": "2024-08-04",
+    "time": "22:57",
+    "paidTo": "Vendor 87",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 621,
+    "type": "expense",
+    "date": "2024-08-04",
+    "time": "20:39",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "children",
+    "amount": 499,
+    "type": "expense",
+    "date": "2024-08-03",
+    "time": "03:53",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "others",
+    "amount": 93,
+    "type": "income",
+    "date": "2024-08-09",
+    "time": "05:50",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "gas",
+    "amount": 754,
+    "type": "income",
+    "date": "2024-08-09",
+    "time": "19:20",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "clothing",
+    "amount": 138,
+    "type": "expense",
+    "date": "2024-08-07",
+    "time": "02:42",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "children",
+    "amount": 472,
+    "type": "income",
+    "date": "2024-08-06",
+    "time": "03:56",
+    "paidTo": "Vendor 51",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "transport",
+    "amount": 585,
+    "type": "income",
+    "date": "2024-08-04",
+    "time": "14:19",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "entertain",
+    "amount": 737,
+    "type": "income",
+    "date": "2024-08-12",
+    "time": "14:46",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "entertain",
+    "amount": 409,
+    "type": "expense",
+    "date": "2024-08-04",
+    "time": "05:58",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "others",
+    "amount": 689,
+    "type": "income",
+    "date": "2024-08-03",
+    "time": "15:03",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "clothing",
+    "amount": 855,
+    "type": "expense",
+    "date": "2024-08-14",
+    "time": "02:27",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "children",
+    "amount": 914,
+    "type": "income",
+    "date": "2024-08-06",
+    "time": "01:10",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "gas",
+    "amount": 218,
+    "type": "expense",
+    "date": "2024-08-06",
+    "time": "23:45",
+    "paidTo": "Vendor 11",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "entertain",
+    "amount": 208,
+    "type": "income",
+    "date": "2024-08-02",
+    "time": "14:07",
+    "paidTo": "Vendor 67",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "transport",
+    "amount": 392,
+    "type": "expense",
+    "date": "2024-08-03",
+    "time": "13:56",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "entertain",
+    "amount": 719,
+    "type": "expense",
+    "date": "2024-08-14",
+    "time": "19:50",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "food",
+    "amount": 782,
+    "type": "expense",
+    "date": "2024-08-20",
+    "time": "13:11",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "entertain",
+    "amount": 107,
+    "type": "income",
+    "date": "2024-08-04",
+    "time": "05:55",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 110,
+    "type": "expense",
+    "date": "2024-08-09",
+    "time": "23:36",
+    "paidTo": "Vendor 2",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "EB",
+    "amount": 811,
+    "type": "expense",
+    "date": "2024-08-06",
+    "time": "03:28",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "food",
+    "amount": 777,
+    "type": "expense",
+    "date": "2024-08-11",
+    "time": "09:15",
+    "paidTo": "Vendor 40",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 569,
+    "type": "income",
+    "date": "2024-08-22",
+    "time": "14:54",
+    "paidTo": "Vendor 83",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "EB",
+    "amount": 573,
+    "type": "income",
+    "date": "2024-08-22",
+    "time": "22:58",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "clothing",
+    "amount": 80,
+    "type": "income",
+    "date": "2024-08-13",
+    "time": "17:48",
+    "paidTo": "Vendor 99",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "transport",
+    "amount": 328,
+    "type": "expense",
+    "date": "2024-08-09",
+    "time": "13:25",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "gas",
+    "amount": 10,
+    "type": "income",
+    "date": "2024-08-18",
+    "time": "14:28",
+    "paidTo": "Vendor 44",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 840,
+    "type": "expense",
+    "date": "2024-08-31",
+    "time": "14:51",
+    "paidTo": "Vendor 32",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "decor",
+    "amount": 603,
+    "type": "income",
+    "date": "2024-08-24",
+    "time": "07:59",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "clothing",
+    "amount": 863,
+    "type": "expense",
+    "date": "2024-08-29",
+    "time": "06:51",
+    "paidTo": "Vendor 6",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "EB",
+    "amount": 763,
+    "type": "expense",
+    "date": "2024-08-16",
+    "time": "02:57",
+    "paidTo": "Vendor 70",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "internet",
+    "amount": 489,
+    "type": "expense",
+    "date": "2024-08-17",
+    "time": "05:45",
+    "paidTo": "Vendor 77",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "food",
+    "amount": 172,
+    "type": "expense",
+    "date": "2024-08-03",
+    "time": "05:37",
+    "paidTo": "Vendor 25",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "decor",
+    "amount": 294,
+    "type": "income",
+    "date": "2024-08-10",
+    "time": "07:47",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "grocery",
+    "amount": 264,
+    "type": "expense",
+    "date": "2024-08-02",
+    "time": "01:16",
+    "paidTo": "Vendor 14",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "home",
+    "amount": 831,
+    "type": "expense",
+    "date": "2024-09-03",
+    "time": "00:34",
+    "paidTo": "Vendor 74",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "gas",
+    "amount": 791,
+    "type": "income",
+    "date": "2024-09-10",
+    "time": "02:05",
+    "paidTo": "Vendor 85",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "food",
+    "amount": 468,
+    "type": "expense",
+    "date": "2024-08-25",
+    "time": "22:08",
+    "paidTo": "Vendor 52",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 434,
+    "type": "income",
+    "date": "2024-08-28",
+    "time": "22:08",
+    "paidTo": "Vendor 74",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "food",
+    "amount": 417,
+    "type": "expense",
+    "date": "2024-09-07",
+    "time": "14:45",
+    "paidTo": "Vendor 75",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "transport",
+    "amount": 198,
+    "type": "expense",
+    "date": "2024-08-13",
+    "time": "10:39",
+    "paidTo": "Vendor 32",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "children",
+    "amount": 715,
+    "type": "income",
+    "date": "2024-08-02",
+    "time": "01:55",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "decor",
+    "amount": 193,
+    "type": "income",
+    "date": "2024-08-23",
+    "time": "21:05",
+    "paidTo": "Vendor 45",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "grocery",
+    "amount": 924,
+    "type": "income",
+    "date": "2024-08-31",
+    "time": "13:23",
+    "paidTo": "Vendor 34",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "transport",
+    "amount": 355,
+    "type": "expense",
+    "date": "2024-08-04",
+    "time": "09:24",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "home",
+    "amount": 702,
+    "type": "income",
+    "date": "2024-08-25",
+    "time": "00:18",
+    "paidTo": "Vendor 11",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "decor",
+    "amount": 595,
+    "type": "income",
+    "date": "2024-09-20",
+    "time": "20:39",
+    "paidTo": "Vendor 40",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "transport",
+    "amount": 84,
+    "type": "income",
+    "date": "2024-09-11",
+    "time": "09:08",
+    "paidTo": "Vendor 82",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "EB",
+    "amount": 449,
+    "type": "expense",
+    "date": "2024-08-24",
+    "time": "09:39",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "clothing",
+    "amount": 222,
+    "type": "income",
+    "date": "2024-08-11",
+    "time": "05:09",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "EB",
+    "amount": 188,
+    "type": "income",
+    "date": "2024-08-13",
+    "time": "11:40",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "health",
+    "amount": 319,
+    "type": "income",
+    "date": "2024-09-02",
+    "time": "11:21",
+    "paidTo": "Vendor 4",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "gas",
+    "amount": 584,
+    "type": "expense",
+    "date": "2024-08-11",
+    "time": "09:18",
+    "paidTo": "Vendor 55",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "others",
+    "amount": 359,
+    "type": "expense",
+    "date": "2024-08-14",
+    "time": "17:03",
+    "paidTo": "Vendor 21",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "children",
+    "amount": 620,
+    "type": "income",
+    "date": "2024-08-09",
+    "time": "16:50",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "transport",
+    "amount": 989,
+    "type": "income",
+    "date": "2024-08-25",
+    "time": "12:54",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "children",
+    "amount": 838,
+    "type": "income",
+    "date": "2024-09-01",
+    "time": "00:25",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "gas",
+    "amount": 292,
+    "type": "income",
+    "date": "2024-08-02",
+    "time": "16:05",
+    "paidTo": "Vendor 20",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "EB",
+    "amount": 283,
+    "type": "expense",
+    "date": "2024-08-19",
+    "time": "14:36",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "others",
+    "amount": 803,
+    "type": "expense",
+    "date": "2024-08-30",
+    "time": "12:06",
+    "paidTo": "Vendor 54",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "grocery",
+    "amount": 362,
+    "type": "expense",
+    "date": "2024-08-01",
+    "time": "12:13",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "children",
+    "amount": 87,
+    "type": "income",
+    "date": "2024-08-31",
+    "time": "04:07",
+    "paidTo": "Vendor 79",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "transport",
+    "amount": 778,
+    "type": "income",
+    "date": "2024-08-31",
+    "time": "10:14",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "food",
+    "amount": 868,
+    "type": "expense",
+    "date": "2024-08-05",
+    "time": "01:06",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "internet",
+    "amount": 49,
+    "type": "income",
+    "date": "2024-08-17",
+    "time": "12:41",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "internet",
+    "amount": 827,
+    "type": "expense",
+    "date": "2024-08-31",
+    "time": "23:39",
+    "paidTo": "Vendor 9",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "EB",
+    "amount": 159,
+    "type": "expense",
+    "date": "2024-10-02",
+    "time": "07:14",
+    "paidTo": "Vendor 96",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "health",
+    "amount": 790,
+    "type": "expense",
+    "date": "2024-10-02",
+    "time": "09:24",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "health",
+    "amount": 156,
+    "type": "income",
+    "date": "2024-08-18",
+    "time": "23:18",
+    "paidTo": "Vendor 82",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "transport",
+    "amount": 416,
+    "type": "expense",
+    "date": "2024-08-29",
+    "time": "02:25",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "home",
+    "amount": 586,
+    "type": "expense",
+    "date": "2024-08-28",
+    "time": "04:31",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "grocery",
+    "amount": 534,
+    "type": "income",
+    "date": "2024-08-04",
+    "time": "20:58",
+    "paidTo": "Vendor 55",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "clothing",
+    "amount": 545,
+    "type": "expense",
+    "date": "2024-09-09",
+    "time": "02:08",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "children",
+    "amount": 623,
+    "type": "income",
+    "date": "2024-08-28",
+    "time": "15:02",
+    "paidTo": "Vendor 36",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "gas",
+    "amount": 959,
+    "type": "income",
+    "date": "2024-09-25",
+    "time": "02:40",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "decor",
+    "amount": 964,
+    "type": "income",
+    "date": "2024-10-02",
+    "time": "14:37",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "clothing",
+    "amount": 790,
+    "type": "income",
+    "date": "2024-08-25",
+    "time": "08:38",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "others",
+    "amount": 282,
+    "type": "income",
+    "date": "2024-09-04",
+    "time": "04:07",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "clothing",
+    "amount": 13,
+    "type": "income",
+    "date": "2024-10-13",
+    "time": "07:19",
+    "paidTo": "Vendor 22",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "others",
+    "amount": 452,
+    "type": "income",
+    "date": "2024-08-29",
+    "time": "23:42",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "gas",
+    "amount": 891,
+    "type": "income",
+    "date": "2024-09-18",
+    "time": "14:55",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "gas",
+    "amount": 517,
+    "type": "expense",
+    "date": "2024-08-12",
+    "time": "15:15",
+    "paidTo": "Vendor 57",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "clothing",
+    "amount": 640,
+    "type": "expense",
+    "date": "2024-10-13",
+    "time": "02:17",
+    "paidTo": "Vendor 88",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "others",
+    "amount": 867,
+    "type": "income",
+    "date": "2024-09-02",
+    "time": "08:35",
+    "paidTo": "Vendor 72",
+    "weekDay": "Monday"
+  },
+  {
+    "category": "transport",
+    "amount": 103,
+    "type": "income",
+    "date": "2024-09-07",
+    "time": "18:39",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "health",
+    "amount": 155,
+    "type": "expense",
+    "date": "2024-08-15",
+    "time": "13:26",
+    "paidTo": "Vendor 38",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "others",
+    "amount": 904,
+    "type": "income",
+    "date": "2024-09-14",
+    "time": "23:25",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Saturday"
+  },
+  {
+    "category": "others",
+    "amount": 582,
+    "type": "income",
+    "date": "2024-11-01",
+    "time": "20:36",
+    "paidTo": "Vendor 78",
+    "weekDay": "Friday"
+  },
+  {
+    "category": "others",
+    "amount": 494,
+    "type": "expense",
+    "date": "2024-08-13",
+    "time": "10:17",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "home",
+    "amount": 453,
+    "type": "expense",
+    "date": "2024-09-03",
+    "time": "06:07",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Tuesday"
+  },
+  {
+    "category": "home",
+    "amount": 679,
+    "type": "expense",
+    "date": "2024-09-12",
+    "time": "04:10",
+    "paidTo": "Sample Vendor",
+    "weekDay": "Thursday"
+  },
+  {
+    "category": "others",
+    "amount": 917,
+    "type": "expense",
+    "date": "2024-09-25",
+    "time": "14:19",
+    "paidTo": "Vendor 25",
+    "weekDay": "Wednesday"
+  },
+  {
+    "category": "internet",
+    "amount": 355,
+    "type": "expense",
+    "date": "2024-08-04",
+    "time": "06:57",
+    "paidTo": "Vendor 48",
+    "weekDay": "Sunday"
+  },
+  {
+    "category": "health",
+    "amount": 799,
+    "type": "expense",
+    "date": "2024-08-17",
+    "time": "07:21",
+    "paidTo": "Vendor 78",
+    "weekDay": "Saturday"
+  }
+]
