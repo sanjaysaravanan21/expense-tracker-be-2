@@ -5,7 +5,7 @@ import moment from "moment";
 const router = express.Router();
 
 // GET all items
-router.get("/", async (req, res) => {
+/* router.get("/", async (req, res) => {
   try {
     const items = await Item.find();
     res.json(items);
@@ -22,12 +22,13 @@ router.post("/filter-items", async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
-});
+}); */
 
 router.get("/day/:date", async (req, res) => {
   try {
+    const { phoneNumber } = req.body;
     const { date } = req.params;
-    const items = await Item.find({ date }, { _id: 0, __v: 0 });
+    const items = await Item.find({ date, phoneNumber }, { _id: 0, __v: 0 });
     if (items.length > 0) {
       const obj = await Item.aggregate([
         {
@@ -83,6 +84,7 @@ function getDatesOfWeek(startDate) {
 const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 router.get("/week/:startDate", async (req, res) => {
   try {
+    const { phoneNumber } = req.body;
     const dates = getDatesOfWeek(req.params.startDate);
 
     const items = await Item.find(
@@ -90,6 +92,7 @@ router.get("/week/:startDate", async (req, res) => {
         date: {
           $in: dates,
         },
+        phoneNumber,
       },
       {
         _id: 0,
@@ -108,6 +111,7 @@ router.get("/week/:startDate", async (req, res) => {
           date: {
             $in: dates,
           },
+          phoneNumber,
         },
       },
       {
@@ -133,6 +137,7 @@ router.get("/week/:startDate", async (req, res) => {
           date: {
             $in: dates,
           },
+          phoneNumber,
         },
       },
       {
@@ -206,6 +211,7 @@ function getDatesOfMonth(startDate) {
 
 router.get("/month/:startDate", async (req, res) => {
   try {
+    const { phoneNumber } = req.body;
     const dates = getDatesOfMonth(req.params.startDate);
 
     const items = await Item.find(
@@ -213,6 +219,7 @@ router.get("/month/:startDate", async (req, res) => {
         date: {
           $in: dates,
         },
+        phoneNumber,
       },
       {
         _id: 0,
@@ -231,6 +238,7 @@ router.get("/month/:startDate", async (req, res) => {
           date: {
             $in: dates,
           },
+          phoneNumber,
         },
       },
       {
@@ -256,6 +264,7 @@ router.get("/month/:startDate", async (req, res) => {
           date: {
             $in: dates,
           },
+          phoneNumber,
         },
       },
       {
@@ -310,18 +319,19 @@ router.get("/month/:startDate", async (req, res) => {
 });
 
 // GET all items
-router.get("/", async (req, res) => {
+/* router.get("/", async (req, res) => {
   try {
     const items = await Item.findById(req.params.id);
     res.json(items);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
-});
+}); */
 
 // POST a new item
 router.post("/", async (req, res) => {
-  const { datetime, category, amount, type, date, time, paidTo } = req.body;
+  const { datetime, category, amount, type, date, time, paidTo, phoneNumber } =
+    req.body;
 
   const newItem = new Item({
     datetime,
@@ -331,6 +341,7 @@ router.post("/", async (req, res) => {
     date,
     time,
     paidTo,
+    phoneNumber,
   });
 
   try {
