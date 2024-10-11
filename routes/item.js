@@ -1,5 +1,6 @@
 import express from "express";
 import { Item } from "../models/models.js";
+import moment from "moment";
 
 const router = express.Router();
 
@@ -187,22 +188,20 @@ router.get("/week/:startDate", async (req, res) => {
 
 function getDatesOfMonth(startDate) {
   const dates = [];
-  const date = new Date(startDate); // Convert the input string to a Date object
 
-  // Get the year and month from the date
-  const year = date.getFullYear();
-  const month = date.getMonth(); // Month is zero-indexed (0 = January, 1 = February, ...)
+  const start = moment(startDate, "YYYY-MM-DD");
+  const year = start.year();
+  const month = start.month(); // Month is zero-based (0 for January, 1 for February, etc.)
 
-  // Get the last day of the month
-  const lastDate = new Date(year, month + 1, 0).getDate(); // Day 0 of the next month gives last day of the current month
+  // Get the number of days in the month
+  const daysInMonth = start.daysInMonth();
 
-  // Loop through each day of the month
-  for (let day = 2; day <= lastDate + 1; day++) {
-    const currentDate = new Date(year, month, day);
-    dates.push(currentDate.toISOString().split("T")[0]); // Format to 'YYYY-MM-DD'
+  for (let day = 1; day <= daysInMonth; day++) {
+    const date = moment([year, month, day]).format("YYYY-MM-DD");
+    dates.push(date);
   }
 
-  return dates; // Return the array of dates
+  return dates;
 }
 
 router.get("/month/:startDate", async (req, res) => {
