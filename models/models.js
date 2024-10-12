@@ -48,6 +48,10 @@ const itemSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
+    phoneNumber: {
+      type: String,
+      required: false,
+    },
   },
   {
     timestamps: true, // Adds createdAt and updatedAt fields
