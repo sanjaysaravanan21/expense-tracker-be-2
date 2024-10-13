@@ -5,6 +5,7 @@ import cors from "cors";
 import jwt from "jsonwebtoken";
 import itemsRouter from "./routes/item.js";
 import userRouter from "./routes/user.js";
+import healthRouter from "./routes/health.js";
 
 dotenv.config();
 
@@ -41,6 +42,7 @@ mongoose
   .then(() => {
     console.log("Connected to Mongo DB");
     app.use("/items", authMiddleWare, itemsRouter);
+    app.use("/server", healthRouter);
     app.use("/users", userRouter);
     app.listen(port, () => {
       console.log("Server listening on", port);
